@@ -2,7 +2,7 @@
 Threat Hunting project utilizing Threat Intelligence.
 
 ### Microsoft Sentinel Workbook: Threat Intelligence-Correlated Inbound Brute-Force & Geo-Mapping
-🎯 ###Project Overview & Objective
+## 🎯 Project Overview & Objective
 In modern Security Operations Centers (SOCs), analysts are constantly flooded with high volumes of authentication telemetry and brute-force alerts. The core challenge is signal-to-noise ratio: separating ordinary high-volume automated scanners from targeted, high-risk attacks originating from known malicious infrastructure.
 
 The objective of this project was to build a custom Microsoft Sentinel workbook that moves beyond basic log monitoring. By cross-referencing live endpoint logon telemetry (DeviceLogonEvents) against active, non-expired threat intelligence feeds (ThreatIntelIndicators), this dashboard instantly surfaces inbound authentication attempts originating from known malicious public IP addresses.
